@@ -8,7 +8,7 @@ public class FizzBuzz {
 	
 	public static void playFizzBuzz(int stop) {
 		for(int i = 1; i <= stop; i++) {
-			if(isDivisibleBy2(i,3) && isDivisibleBy(i,5)) {
+			if(isDivisibleBy2(i,3) && isDivisibleBy2(i,5)) {
 				System.out.println("FIZZ BUZZ!");
 			}
 			else if(isDivisibleBy2(i,3)) {
