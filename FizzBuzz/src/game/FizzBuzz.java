@@ -54,7 +54,7 @@ public class FizzBuzz {
 		}
 	
 	private static boolean isDivisible2(int input, int divideBy) {
-		return (double)input / divideBy == input / divideBy;
+		return input % divideBy == 0;
 	}
 	
 }
